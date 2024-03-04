@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
       
         if (username !== null && username.trim() !== "") {
-            // Mostrar mensaje de bienvenida
+            
             alert("¡Bienvenido, " + username + "!");
         } else {
           
