@@ -1,13 +1,13 @@
+var username = prompt("Por favor, ingresa tu nombre:");
 
-document.addEventListener("DOMContentLoaded", function(event) {
-    var username = prompt("Por favor, ingresa tu nombre:");
-    if (username !== null && username !== "") {
-        alert("¡Hola, " + username + "! Bienvenido a nuestra página.");
-    } else {
-        alert("No ingresaste un nombre, pero aún así bienvenido a nuestra página.");
-    }
-});
 
+if (username !== null && username.trim() !== "") {
+ 
+    alert("¡Bienvenido, " + username + "!");
+} else {
+
+    alert("¡Bienvenido! (Sin nombre)");
+}
 
 
 
