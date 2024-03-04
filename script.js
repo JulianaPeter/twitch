@@ -1,3 +1,18 @@
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    var username = prompt("Por favor, ingresa tu nombre:");
+    if (username !== null && username !== "") {
+        alert("¡Hola, " + username + "! Bienvenido a nuestra página.");
+    } else {
+        alert("No ingresaste un nombre, pero aún así bienvenido a nuestra página.");
+    }
+});
+
+
+
+
+
+
 document.addEventListener("DOMContentLoaded", function() {
     let images = document.querySelectorAll(".banner img"); 
 
